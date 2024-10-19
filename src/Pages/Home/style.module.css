@@ -1,0 +1,243 @@
+.container{
+    padding: 20px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.625);
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+
+.col1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+}
+
+.col2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+.form{
+   width: 400px;
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+}
+
+.form button{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(143, 120, 126);
+    color: white;
+}
+
+
+.boy{
+ width: 400px;
+ height: 40px;
+ border-radius: 5px;
+ border: 1px solid black;
+}
+
+.boy input{
+    width: 360px;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.kilo{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+   }
+
+   .kilo input{
+    width: 360px;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+@media screen and (width < 1420px){
+    .container{
+        width: 80%;
+        height: 500px;
+        justify-content: space-around;
+        border-radius: 5px;
+        margin-top: 40px;
+      }
+      .container img{
+        width: 600px;
+     }
+     .form{
+        width: 350px;
+     }
+     
+     .form button{
+         width: 350px;
+     }
+     
+     
+     .boy{
+      width: 350px;
+     }
+     
+     .boy input{
+         width: 310px;
+     }
+     
+     .kilo{
+         width: 350px;
+        }
+     
+        .kilo input{
+         width: 310px;
+     }
+     
+}
+
+@media screen and (width < 1260px){
+    .container{
+        width: 80%;
+        height: 500px;
+        justify-content: space-around;
+        border-radius: 5px;
+        margin-top: 40px;
+      }
+      .container img{
+        width: 500px;
+     }
+     .form{
+        width: 300px;
+     }
+     
+     .form button{
+         width: 300px;
+     }
+     
+     
+     .boy{
+      width: 300px;
+     }
+     
+     .boy input{
+         width: 260px;
+     }
+     
+     .kilo{
+         width: 300px;
+        }
+     
+        .kilo input{
+         width: 260px;
+     }
+     
+}
+
+@media screen and (width < 1090px){
+    .container{
+        width: 80%;
+        height: 700px;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .container img{
+        width: 500px;
+     }
+     .form{
+        width: 400px;
+     }
+     
+     .form button{
+         width: 400px;
+     }
+     
+     
+     .boy{
+      width: 400px;
+     }
+     
+     .boy input{
+         width: 360px;
+     }
+     
+     .kilo{
+         width: 400px;
+        }
+     
+        .kilo input{
+         width: 360px;
+     }
+     
+}
+
+@media screen and (width < 650px){
+    .container img{
+        width: 350px;
+     }
+}
+
+@media screen and (width < 520px){
+    .container{
+        width: 80%;
+        height: 700px;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .container img{
+        width: 300px;
+     }
+     .form{
+        width: 300px;
+     }
+     
+     .form button{
+         width: 300px;
+     }
+     
+     
+     .boy{
+      width: 300px;
+     }
+     
+     .boy input{
+         width: 260px;
+     }
+     
+     .kilo{
+         width: 300px;
+        }
+     
+        .kilo input{
+         width: 260px;
+     }
+}
